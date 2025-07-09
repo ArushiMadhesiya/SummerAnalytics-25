@@ -111,9 +111,6 @@ All visualizations are auto-updating and integrated into the notebook environmen
 - Arushi Madhesiya – Pricing logic, real-time implementation
 - C&A Club + Pathway – Dataset, starter notebook
 
-## License
-
-MIT License
 
 ## References
 
