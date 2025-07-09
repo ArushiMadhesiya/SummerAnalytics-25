@@ -92,25 +92,6 @@ Each parking lot dashboard includes:
 
 All visualizations are auto-updating and integrated into the notebook environment.
 
-## File Structure
-
-```
-📁 parking/                  # Input CSV chunks for streaming
-📄 model1_baseline.ipynb     # Model 1: Linear baseline
-📄 model2_demand.ipynb       # Model 2: Demand-based pricing
-📄 model3_competitive.ipynb  # Model 3: Competitive pricing with rerouting
-📄 dashboard.ipynb           # Final dashboard view
-📄 Sample_Notebook.ipynb     # Provided starter reference
-📄 README.md                 # Project overview
-```
-
-## How to Run (Google Colab)
-
-1. Upload streaming CSV files to the `/parking/` directory
-2. Open `dashboard.ipynb`
-3. Run all cells; the Bokeh dashboard will auto-start
-4. Pathway handles live streaming and visualization within the notebook (no `panel serve` required)
-
 ## Deliverables
 
 - Three models: baseline, demand-based, competitive
@@ -124,8 +105,6 @@ All visualizations are auto-updating and integrated into the notebook environmen
 - Vehicle type weight reflects the likelihood of higher willingness to pay
 - Traffic reduces parking desirability
 - Special days increase demand
-- Nearby lots within 1 km are considered competitors
-- Prices are bounded: minimum ₹5, maximum ₹25
 
 ## Credits
 
